@@ -56,7 +56,7 @@ function updateFireIntensityPerPixel(currentPixelIndex){
 	 const bellowPixelFireIntensity = firePixelsArray[bellowPixelIndex]
 	 const newFireIntensity = bellowPixelFireIntensity - decay >= 0 ? bellowPixelFireIntensity - decay : 0
 
-     firePixelsArray[currentPixelIndex - ( + decay)] = newFireIntensity	 
+     firePixelsArray[currentPixelIndex - ( - decay)] = newFireIntensity	 
 
 
 
